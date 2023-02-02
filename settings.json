@@ -27,7 +27,7 @@
     },
     "vite.open": false,
     "prettier-config.gist": {
-        "configRaw": "https://raw.githubusercontent.com/lioWeb1024/configRaw/master/.prettierrc"
+        "configRaw": "https://raw.githubusercontent.com/lioweb1024/configRaw/master/.prettierrc"
     },
     "npm-intellisense.packageSubfoldersIntellisense": true, //import 显示子文件路径
     "path-autocomplete.extensionOnImport": true, //文件路径后缀
