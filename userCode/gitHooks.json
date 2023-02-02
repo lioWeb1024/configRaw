@@ -1,0 +1,19 @@
+{
+    "Print to console": {
+        "scope": "json",
+        "prefix": "githook",
+        "body": [
+            "\"husky\": {",
+            "  \"hooks\": {",
+            "    \"pre-commit\": \"lint-staged\"",
+            "  }",
+            "},",
+            "\"lint-staged\": {",
+            "  \"*.{vue,ts,tsx,js,jsx,json,css,less,scss,html}\": [",
+            "    \"prettier --config .prettierrc.js --write\"",
+            "  ]",
+            "}"
+        ],
+        "description": "husky lint-staged"
+    }
+}

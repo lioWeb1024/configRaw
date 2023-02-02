@@ -1,0 +1,15 @@
+{
+    "Print to console": {
+        "scope": "css,less,scss",
+        "prefix": "text-linear",
+        "body": [
+            ".text-linear {",
+            "  background: linear-gradient(90deg, #ffa54d, #f07bc5, #43aeff);",
+            "  background-clip: text;",
+            "  -webkit-background-clip: text;",
+            "  -webkit-text-fill-color: transparent;",
+            "}"
+        ],
+        "description": "文字渐变色"
+    }
+}

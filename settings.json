@@ -1,0 +1,47 @@
+{
+    "editor.mouseWheelZoom": false, //鼠标滚轮缩放
+    "editor.wordWrap": "on", //自动换行
+    "editor.detectIndentation": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false, //新建标签
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "security.workspace.trust.enabled": false, //关闭受限模式
+    "diffEditor.ignoreTrimWhitespace": false,
+    "extensions.ignoreRecommendations": true, //忽略插件扩展建议
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact" //让js支持html标签
+    },
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "emmet.variables": {
+        "lang": "zh-CN"
+    },
+    "vite.open": false,
+    "prettier-config.gist": {
+        "configRaw": "https://raw.githubusercontent.com/lioWeb1024/configRaw/master/.prettierrc"
+    },
+    "npm-intellisense.packageSubfoldersIntellisense": true, //import 显示子文件路径
+    "path-autocomplete.extensionOnImport": true, //文件路径后缀
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false,
+    "vetur.validation.script": false, //vetur和volar冲突问题
+    "dotenv.enableAutocloaking": false, //.env自动隐藏
+    "editor.snippetSuggestions": "bottom", //代码提示排序
+    "prettier-config.tool": "yarn", //使用yarn安装
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "typings.bin": "yarn",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+    "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme"
+}
